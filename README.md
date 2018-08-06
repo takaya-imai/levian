@@ -10,8 +10,8 @@ $ git clone https://github.com/lightningnetwork/lnd.git $GOPATH/src/github.com/l
 $ cd $GOPATH/src/github.com/lightningnetwork/lnd
 $ dep ensure -v
 
-$ git clone https://github.com/takaya-imai/lightning-tools.git $GOPATH/src/github.com/takaya-imai/lightning-tools
-$ cd $GOPATH/src/github.com/takaya-imai/lightning-tools
+$ git clone https://github.com/takaya-imai/levian.git $GOPATH/src/github.com/takaya-imai/levian
+$ cd $GOPATH/src/github.com/takaya-imai/levian
 $ vi init_with_peer.go # edit parameters, "addr" and "hexPubkey" and set them to values correspondint to your node. The addr is IP address of your node and hexPubkey is your lightning node id.
 
 $ cp simpleserver.go init_with_peer.go init_with_peer.sh $GOPATH/src/github.com/lightningnetwork/lnd
