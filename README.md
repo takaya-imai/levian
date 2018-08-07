@@ -2,6 +2,10 @@
 
 This is a lightning hands-on tools based on lnd library.
 
+## Golang version
+
+We recommend that users use the latest version of Go, which at the time of writing is 1.10.
+
 ## How to use
 
 ```
